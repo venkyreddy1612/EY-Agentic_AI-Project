@@ -20,3 +20,6 @@ venv/
 
 # Logs
 *.log
+
+# Memory database
+memory/*.db
