@@ -12,7 +12,7 @@ load_dotenv()
 def ingest():
     print("\n📄 Loading CIS document...")
 
-    loader = PyPDFLoader(r"E:\Lenovo Ideapad 330\company-material\ai-upskill-2\30-agentic-rag\cis-basic\data\cis_docs\CIS_Microsoft_Windows_11_Enterprise_Benchmark_v5.0.1.pdf")
+    loader = PyPDFLoader(r"/home/venky/Code/EY-Agentic_AI-Project/IN010K43438_venkateshc/29-capstone-project/cis-basic/data/cis_docs/CIS_Microsoft_Windows_11_Enterprise_Benchmark_v5.0.1.pdf")
     documents = loader.load()
 
     print(f"✅ Loaded {len(documents)} pages")

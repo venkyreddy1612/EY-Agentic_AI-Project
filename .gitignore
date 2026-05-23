@@ -23,3 +23,26 @@ venv/
 
 # Memory database
 memory/*.db
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Databases
+*.db
+*.sqlite3
+
+# Chroma / Vector DB
+chroma_db/
+vectorstore/
+
+# Windows metadata
+*:Zone.Identifier
+
+# Logs
+*.log
